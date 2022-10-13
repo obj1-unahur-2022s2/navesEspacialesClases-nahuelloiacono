@@ -79,7 +79,6 @@ class NaveDeCombate inherits NaveEspacial {
 		return mensajesEmitidos.last()
 		}
 	method esEscueta() = mensajesEmitidos.all({ m => m.size() < 30 })
-	method emitioMensaje(mensaje)
 	override method prepararViaje() {
 		// super(). Realiza las acciones del prepararViaje() de la superclase NaveEspacial.
 		super()
